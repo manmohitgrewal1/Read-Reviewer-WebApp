@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@500&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">  <link rel="stylesheet" href="../static/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Cairo&family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="nav">
+    <img src="../static/logo.png" alt="">
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT US</a>
+    <a href="/logout">LOGOUT</a>
+  </div>
+  <div class="content-area">
+    {% block body %}{% endblock %}
+  </div>
+</body>
+
+</html>

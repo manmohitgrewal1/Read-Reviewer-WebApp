@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Search
+{% endblock %}
+{% block body %}
+<form action="/" class="search_input" method="post">
+<input class="inp" name="ISBN" type="text" placeholder="ISBN">
+<input class="inp" name="Title" type="text" placeholder="Title">
+<input class="inp" name="Author" type="text" placeholder="Author">
+<input type="submit" class="button" name="Submit" placeholder="submit">
+
+<!-- <button type="button" name="button">Submit</button> -->
+</form>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Search
+{% endblock %}
+{% block body %}
+<h1 class="heading">SEARCH RESULT</h1>
+
+<div class="container">
+  <div class="row">
+    {% for run in query_result %}
+    <div class="col-md-5 cly" >
+    <h4>{{run.title}}</h4>
+    <p><b>Authored by {{run.author}} in {{run.year}}, ISBN {{run.isbn}}</b></p>
+    <a href="/review/{{run.id}}"> More info</a>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% endblock %}

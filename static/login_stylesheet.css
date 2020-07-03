@@ -1,0 +1,64 @@
+.login-logo img{
+  text-align: center;
+  width: 200px;
+  transform: translate(325%,100%);
+
+}
+.login-logo h1{
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+    font-family: 'Rokkitt', serif;
+
+  }
+body{
+  background-color: #8db7c2;
+  /* background-color: #34495e; */
+
+}
+.login_box{
+  width: 400px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  background: #302c2c;
+  font-family: 'Rokkitt', serif;
+  padding: 40px;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  border-radius: 20px;
+}
+.login_box input[type="text"], .login_box input[type="password"]{
+  background: none;
+  margin: 30px auto;
+  color: white;
+  text-align: center;
+  border: 2px solid #3498db;
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 24px;
+  transition: .25s;
+}
+  .login_box input[type="text"]:hover, .login_box input[type="password"]:hover{
+    width: 280px;
+  }
+  .login_box input[type="submit"]{
+    border: 0;
+    background: none;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    display: block;
+    color: white;
+    width: 90px;
+    height: 50px;
+    border-radius: 24px;
+    transition: .25s;
+  }
+  #register{
+    color: black;
+  }
