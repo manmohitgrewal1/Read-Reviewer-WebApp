@@ -1,4 +1,4 @@
-# Project 1
+# Read Reviewer
 Completed this project in following steps:
 
 1. Established database by installing postgresql and then creating a app on heroku.
